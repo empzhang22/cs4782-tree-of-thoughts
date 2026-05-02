@@ -18,7 +18,6 @@ import analysis.poster_style  # noqa: F401 — applies poster rcParams and color
 
 from experiments.evaluate import load_results, summarize
 from analysis.plots import (
-    METHOD_ORDER,
     plot_success_rate,
     plot_api_cost,
     plot_difficulty_curve,
