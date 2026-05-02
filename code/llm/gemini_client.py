@@ -1,3 +1,4 @@
+import time
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -10,13 +11,17 @@ from .cache import ResponseCache
 
 load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
+_FREE_TIER_RPM = 5
+
 
 class GeminiClient(LLMClient):
-    def __init__(self, model: str, cache: ResponseCache | None = None):
+    def __init__(self, model: str, cache: ResponseCache | None = None, rpm: int = _FREE_TIER_RPM):
         self.model = model
         self.cache = cache
         self.call_count: int = 0
         self._client = genai.Client()  # reads GOOGLE_API_KEY from env
+        self._min_interval = 60.0 / rpm
+        self._last_call_time = 0.0
 
     def complete(
         self,
@@ -38,8 +43,13 @@ class GeminiClient(LLMClient):
 
         return results
 
-    @retry(stop=stop_after_attempt(5), wait=wait_exponential(multiplier=1, min=2, max=30))
+    @retry(stop=stop_after_attempt(10), wait=wait_exponential(multiplier=1, min=2, max=60))
     def _one_call(self, prompt: str, temperature: float, max_tokens: int) -> str:
+        elapsed = time.time() - self._last_call_time
+        if elapsed < self._min_interval:
+            time.sleep(self._min_interval - elapsed)
+        self._last_call_time = time.time()
+
         response = self._client.models.generate_content(
             model=self.model,
             contents=prompt,
