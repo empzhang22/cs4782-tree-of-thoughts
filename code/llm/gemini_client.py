@@ -11,11 +11,11 @@ from .cache import ResponseCache
 
 load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
-_FREE_TIER_RPM = 5
+_PAID_TIER_RPM = 1000
 
 
 class GeminiClient(LLMClient):
-    def __init__(self, model: str, cache: ResponseCache | None = None, rpm: int = _FREE_TIER_RPM):
+    def __init__(self, model: str, cache: ResponseCache | None = None, rpm: int = _PAID_TIER_RPM):
         self.model = model
         self.cache = cache
         self.call_count: int = 0
