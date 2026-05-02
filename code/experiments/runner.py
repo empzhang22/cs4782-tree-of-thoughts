@@ -6,8 +6,6 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from llm.openai_client import OpenAIClient
-from llm.gemini_client import GeminiClient
 from llm.cache import ResponseCache
 from tasks.game24.task import Game24Task
 from tot.node import ThoughtNode
@@ -40,8 +38,10 @@ def run(cfg: dict, evaluate_only: bool = False):
 
     cache = ResponseCache(cache_dir)
     if model.startswith("gemini"):
+        from llm.gemini_client import GeminiClient
         llm = GeminiClient(model=model, cache=cache)
     else:
+        from llm.openai_client import OpenAIClient
         llm = OpenAIClient(model=model, cache=cache)
 
     if task_name == "game24":
