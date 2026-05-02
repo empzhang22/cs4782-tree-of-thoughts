@@ -1,11 +1,10 @@
 task: game24
-method: cot_sc
-model: gemini-2.5-pro
+method: io
+model: gemini-2.5-flash
 temperature_generate: 0.7
-n_generate: 5
-max_tokens: 256
+max_tokens: 128
 dataset_path: ../data/game24/24.csv
 n_problems: 100
 problem_offset: 900
 cache_dir: ../results/cache
-output_dir: ../results/game24/cot_sc_gemini25pro
+output_dir: ../results/game24/io_gemini25flash

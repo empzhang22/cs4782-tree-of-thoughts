@@ -1,6 +1,6 @@
 task: game24
 method: tot_bfs
-model: gemini-2.5-pro
+model: gemini-2.5-flash
 temperature_generate: 0.7
 temperature_evaluate: 0.0
 n_generate: 5
@@ -11,4 +11,4 @@ dataset_path: ../data/game24/24.csv
 n_problems: 100
 problem_offset: 900
 cache_dir: ../results/cache
-output_dir: ../results/game24/tot_bfs_gemini25pro
+output_dir: ../results/game24/tot_bfs_gemini25flash
