@@ -33,14 +33,14 @@ mpl.rcParams.update({
 
 # Classic academic color palette
 _plots.MODEL_COLORS.update({
-    "gpt-4":            "#7F7F7F",   # neutral gray — established baseline
-    "gemini-2.5-flash": "#2E5FAC",   # deep navy blue
+    "gpt-4":            "#7f7f7f",   # neutral gray — established baseline
+    "gemini-2.5-flash": "#2e5fac",   # deep navy blue
 })
 _plots.METHOD_COLORS.update({
-    "io":      "#C0392B",   # crimson
-    "cot":     "#D4822A",   # amber
-    "cot_sc":  "#1A7340",   # forest green
-    "tot_bfs": "#2E5FAC",   # deep navy
+    "io":      "#c0392b",   # crimson
+    "cot":     "#d4822a",   # amber
+    "cot_sc":  "#1a7340",   # forest green
+    "tot_bfs": "#2e5fac",   # deep navy
 })
 
 # Override line widths and annotation sizes
