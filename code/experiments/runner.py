@@ -105,8 +105,9 @@ def run(cfg: dict, evaluate_only: bool = False):
                     temperature_evaluate=cfg.get("temperature_evaluate", 0.0),
                     n_generate=cfg.get("n_generate", 5),
                 )
-                success = any(task.is_success(n) for n in frontier)
-                best = frontier[0] if frontier else root
+                success_node = next((n for n in frontier if task.is_success(n)), None)
+                success = success_node is not None
+                best = success_node if success_node else (frontier[0] if frontier else root)
                 output = _extract_answer_expr(best)
 
             else:
