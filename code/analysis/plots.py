@@ -208,12 +208,12 @@ def plot_api_cost(df: pd.DataFrame, output_path: str):
     ax.set_xlabel("Method", labelpad=8)
     ax.set_ylabel("Avg API Calls per Problem", labelpad=8)
     ax.set_title("Game of 24 — API Call Cost by Method", pad=12)
-    fig.tight_layout()
     if "cot_sc" in avg["method"].values:
         ax.text(0.01, -0.12,
                 "* CoT-SC true cost ≈ 5 calls/problem (Gemini batch counted as 1)",
                 transform=ax.transAxes, fontsize=BAR_ANNOT_FONTSIZE - 1,
                 color="#555555", va="top")
+    fig.tight_layout()
     if d := os.path.dirname(output_path):
         os.makedirs(d, exist_ok=True)
     fig.savefig(output_path, dpi=150, bbox_inches="tight")
