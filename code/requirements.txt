@@ -1,0 +1,10 @@
+openai>=1.0
+google-genai>=1.0
+python-dotenv
+diskcache
+tenacity
+pyyaml
+pandas
+matplotlib
+seaborn
+pytest
