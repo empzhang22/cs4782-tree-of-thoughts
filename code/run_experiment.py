@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
 """CLI entry point for running Tree of Thoughts experiments."""
 import argparse
+import os
 import yaml
 
 
 def load_config(path: str) -> dict:
     with open(path) as f:
         return yaml.safe_load(f)
+
+
+def resolve_paths(cfg: dict) -> dict:
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    for key in ("dataset_path", "cache_dir", "output_dir"):
+        value = cfg.get(key)
+        if isinstance(value, str) and not os.path.isabs(value):
+            cfg[key] = os.path.normpath(os.path.join(base_dir, value))
+    return cfg
 
 
 def main():
@@ -18,7 +28,7 @@ def main():
     parser.add_argument("--evaluate", action="store_true", help="Re-evaluate existing JSONL results")
     args = parser.parse_args()
 
-    cfg = load_config(args.config)
+    cfg = resolve_paths(load_config(args.config))
     if args.n_problems is not None:
         cfg["n_problems"] = args.n_problems
     if args.problem_offset is not None:
@@ -33,9 +43,20 @@ def main():
         b = cfg.get("breadth_limit", 5)
         T = cfg.get("max_depth", 3)
         k = cfg.get("n_generate", 5)
+        e = cfg.get("n_evaluate", 5)
         n_samples = cfg.get("n_generate", 1)
         method = cfg.get("method", "unknown")
-        if "tot" in method:
+        task = cfg.get("task", "unknown")
+        if task == "creative_writing":
+            if method in {"io", "cot"}:
+                estimate = n * n_samples
+            elif method == "cot_sc":
+                estimate = n * (k + e)
+            elif method == "tot_bfs":
+                estimate = n * (2 * k + 2 * e)
+            else:
+                estimate = n
+        elif "tot" in method:
             # depth 1: 1 propose + k value calls; depths 2..T: b propose + b*k value calls each
             estimate = n * ((1 + k) + (T - 1) * b * (1 + k))
         elif method == "cot_sc":

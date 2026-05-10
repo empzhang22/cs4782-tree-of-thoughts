@@ -1,0 +1,5 @@
+model,method,n,constraint_rate,avg_api_calls,total_api_calls,avg_latency_s,avg_coherency_score
+gemini-2.5-flash,io,25,0.76,9.6,240,31.23,1.0
+gemini-2.5-flash,cot,25,0.84,10.0,250,41.97,0.87
+gemini-2.5-flash,cot_sc,25,0.88,5.0,125,14.18,0.9
+gemini-2.5-flash,tot_bfs,25,0.88,11.8,295,34.27,1.05
