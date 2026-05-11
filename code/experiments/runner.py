@@ -3,12 +3,14 @@ import json
 import os
 import sys
 import time
+from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from llm.cache import ResponseCache
 from tasks.game24.task import Game24Task
 from tasks.creative_writing.task import CreativeWritingTask
+from tasks.crossword.task import CrosswordTask
 from tot.node import ThoughtNode
 from tot.generator import ThoughtGenerator
 from tot.evaluator import ThoughtEvaluator
@@ -125,6 +127,175 @@ def _run_creative_tot_bfs(
     }
 
 
+def _run_crossword_io(llm, task: CrosswordTask, clue_text: str, n_samples: int, temperature: float, max_tokens: int) -> dict:
+    prompt = task.standard_prompt_fn(clue_text)
+    responses = llm.complete(prompt, n=n_samples, temperature=temperature, max_tokens=max_tokens)
+    grids = [task.parse_grid(response) for response in responses]
+    return {"output": task.format_grid(grids[0]) if grids[0] else responses[0], "all_outputs": responses, "grid": grids[0]}
+
+
+def _run_crossword_cot(llm, task: CrosswordTask, clue_text: str, n_samples: int, temperature: float, max_tokens: int) -> dict:
+    prompt = task.cot_prompt_fn(clue_text)
+    responses = llm.complete(prompt, n=n_samples, temperature=temperature, max_tokens=max_tokens)
+    grids = [task.parse_grid(response) for response in responses]
+    return {"output": task.format_grid(grids[0]) if grids[0] else responses[0], "all_outputs": responses, "grid": grids[0]}
+
+
+def _run_crossword_cot_sc(llm, task: CrosswordTask, clue_text: str, n_samples: int, temperature: float, max_tokens: int) -> dict:
+    prompt = task.cot_prompt_fn(clue_text)
+    responses = llm.complete(prompt, n=n_samples, temperature=temperature, max_tokens=max_tokens)
+    grids = [task.parse_grid(response) for response in responses]
+    grid_keys = [
+        "\n".join("".join(row) for row in grid) if grid else ""
+        for grid in grids
+    ]
+    majority_key = Counter(grid_keys).most_common(1)[0][0]
+    best_idx = grid_keys.index(majority_key)
+    grid = grids[best_idx]
+    return {
+        "output": task.format_grid(grid) if grid else responses[best_idx],
+        "all_outputs": responses,
+        "grid": grid,
+        "vote_counts": dict(Counter(grid_keys)),
+    }
+
+
+def _evaluate_crossword_state(
+    llm,
+    task: CrosswordTask,
+    item: dict,
+    state,
+    temperature: float,
+    max_tokens: int,
+) -> float:
+    entries = task.constrained_entries(item, state)
+    if not entries:
+        return 0.1
+    total = 0.0
+    for _, clue, pattern in entries:
+        prompt = task.value_prompt_fn(clue, pattern)
+        response = llm.complete(prompt, n=1, temperature=temperature, max_tokens=max_tokens)[0]
+        score = task.parse_value(response)
+        if score == 0.0:
+            return 0.0
+        total += score
+    return total / len(entries)
+
+
+def _run_crossword_tot_dfs(
+    llm,
+    task: CrosswordTask,
+    root: ThoughtNode,
+    n_generate: int,
+    n_max_propose: int,
+    max_steps: int,
+    prune_threshold: float,
+    temperature_generate: float,
+    temperature_evaluate: float,
+    max_tokens_generate: int,
+    max_tokens_evaluate: int,
+) -> dict:
+    item = root.step_outputs["item"]
+    best = {
+        "state": root.step_outputs["state"],
+        "metrics": task.score_grid(task.state_to_grid(root.step_outputs["state"]), item),
+        "steps": [],
+    }
+
+    def consider(state):
+        grid = task.state_to_grid(state)
+        metrics = task.score_grid(grid, item)
+        current_key = (
+            task.is_filled(state),
+            metrics["game_correct"],
+            metrics["words_correct"],
+            metrics["letters_correct"],
+        )
+        best_key = (
+            task.is_filled(best["state"]),
+            best["metrics"]["game_correct"],
+            best["metrics"]["words_correct"],
+            best["metrics"]["letters_correct"],
+        )
+        if current_key > best_key:
+            best["state"] = state
+            best["metrics"] = metrics
+            best["steps"] = list(state.steps)
+        return metrics["game_correct"]
+
+    def dfs(state, depth: int) -> bool:
+        solved = consider(state)
+        if solved:
+            return True
+        if depth >= max_steps or task.is_filled(state):
+            return best["metrics"]["game_correct"]
+
+        node = ThoughtNode(root.thought, step_outputs={"item": item, "state": state})
+        prompt = task.propose_prompt_fn(node)
+        responses = llm.complete(prompt, n=n_generate, temperature=temperature_generate, max_tokens=max_tokens_generate)
+        proposals = []
+        seen = set()
+        for response in responses:
+            for key, word, confidence_score in task.parse_proposals(response):
+                proposal_id = (key, word)
+                if proposal_id in seen:
+                    continue
+                seen.add(proposal_id)
+                proposals.append((key, word, confidence_score))
+        proposals.sort(key=lambda p: p[2], reverse=True)
+
+        for key, word, _ in proposals[:n_max_propose]:
+            next_state = task.apply_word(state, key, word)
+            state_score = _evaluate_crossword_state(
+                llm,
+                task,
+                item,
+                next_state,
+                temperature=temperature_evaluate,
+                max_tokens=max_tokens_evaluate,
+            )
+            if state_score <= prune_threshold:
+                continue
+            if dfs(next_state, depth + 1):
+                return True
+        return False
+
+    dfs(root.step_outputs["state"], 0)
+    grid = task.state_to_grid(best["state"])
+    finish_output = None
+    if not task.is_filled(best["state"]):
+        finish_prompt = task.finish_prompt_fn(item, best["state"])
+        finish_output = llm.complete(
+            finish_prompt,
+            n=1,
+            temperature=temperature_generate,
+            max_tokens=max_tokens_generate,
+        )[0]
+        finished_grid = task.parse_grid(finish_output)
+        if finished_grid is not None:
+            finished_metrics = task.score_grid(finished_grid, item)
+            if (
+                True,
+                finished_metrics["game_correct"],
+                finished_metrics["words_correct"],
+                finished_metrics["letters_correct"],
+            ) >= (
+                task.is_filled(best["state"]),
+                best["metrics"]["game_correct"],
+                best["metrics"]["words_correct"],
+                best["metrics"]["letters_correct"],
+            ):
+                grid = finished_grid
+                best["metrics"] = finished_metrics
+    return {
+        "output": task.format_grid(grid),
+        "grid": grid,
+        "steps": best["steps"],
+        "search_metrics": best["metrics"],
+        "finish_output": finish_output,
+    }
+
+
 def _evaluate_creative_outputs(
     llm,
     task: CreativeWritingTask,
@@ -187,6 +358,11 @@ def run(cfg: dict, evaluate_only: bool = False):
             dataset_path=cfg["dataset_path"],
             problem_offset=offset,
         )
+    elif task_name == "crossword":
+        task = CrosswordTask(
+            dataset_path=cfg["dataset_path"],
+            problem_offset=offset,
+        )
     else:
         raise ValueError(f"Unknown task: {task_name}")
 
@@ -216,9 +392,26 @@ def run(cfg: dict, evaluate_only: bool = False):
         cache.close()
         return
 
-    with open(output_path, "w") as out:
+    completed_problem_ids = set()
+    if cfg.get("resume") and os.path.exists(output_path):
+        with open(output_path, encoding="utf-8") as existing:
+            for line in existing:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    completed_problem_ids.add(json.loads(line)["problem_id"])
+                except (json.JSONDecodeError, KeyError):
+                    continue
+        if completed_problem_ids:
+            print(f"Resume enabled: skipping {len(completed_problem_ids)} completed problem(s)")
+
+    output_mode = "a" if cfg.get("resume") else "w"
+    with open(output_path, output_mode, encoding="utf-8") as out:
         for i in range(n_problems):
             problem_id = offset + i + 1
+            if problem_id in completed_problem_ids:
+                continue
             puzzle = task.get_input(i)
             t0 = time.time()
             llm.call_count = 0
@@ -272,6 +465,57 @@ def run(cfg: dict, evaluate_only: bool = False):
 
                 output = result["output"]
                 success = task.constraints_satisfied(output, task.get_sentences(i))
+
+            elif task_name == "crossword":
+                item = task.get_item(i)
+                root = task.make_root(i)
+                if method == "io":
+                    result = _run_crossword_io(
+                        llm,
+                        task,
+                        puzzle,
+                        n_samples=cfg.get("n_generate", 1),
+                        temperature=cfg.get("temperature_generate", 0.7),
+                        max_tokens=cfg.get("max_tokens", 512),
+                    )
+                elif method == "cot":
+                    result = _run_crossword_cot(
+                        llm,
+                        task,
+                        puzzle,
+                        n_samples=cfg.get("n_generate", 1),
+                        temperature=cfg.get("temperature_generate", 0.7),
+                        max_tokens=cfg.get("max_tokens", 768),
+                    )
+                elif method == "cot_sc":
+                    result = _run_crossword_cot_sc(
+                        llm,
+                        task,
+                        puzzle,
+                        n_samples=cfg.get("n_generate", 10),
+                        temperature=cfg.get("temperature_generate", 0.7),
+                        max_tokens=cfg.get("max_tokens", 768),
+                    )
+                elif method == "tot_dfs":
+                    result = _run_crossword_tot_dfs(
+                        llm,
+                        task,
+                        root,
+                        n_generate=cfg.get("n_generate", 5),
+                        n_max_propose=cfg.get("n_max_propose", 5),
+                        max_steps=cfg.get("max_steps", 10),
+                        prune_threshold=cfg.get("prune_threshold", 0.0),
+                        temperature_generate=cfg.get("temperature_generate", 0.7),
+                        temperature_evaluate=cfg.get("temperature_evaluate", 0.0),
+                        max_tokens_generate=cfg.get("max_tokens", 512),
+                        max_tokens_evaluate=cfg.get("max_tokens_evaluate", 256),
+                    )
+                else:
+                    raise ValueError(f"Unknown method for crossword: {method}")
+
+                output = result["output"]
+                metrics = task.score_grid(result.get("grid"), item)
+                success = metrics["game_correct"]
 
             elif method == "io":
                 result = run_io(llm, puzzle,
@@ -332,6 +576,22 @@ def run(cfg: dict, evaluate_only: bool = False):
                 for key in ("plan", "all_plans", "all_outputs", "vote_counts", "plan_vote_counts", "passage_vote_counts"):
                     if key in result:
                         record[key] = result[key]
+            elif task_name == "crossword":
+                record["puzzle_id"] = item["id"]
+                record["grid"] = result.get("grid")
+                record["target_grid"] = item["grid"]
+                record["letter_accuracy"] = metrics["letter_accuracy"]
+                record["word_accuracy"] = metrics["word_accuracy"]
+                record["game_accuracy"] = 1.0 if metrics["game_correct"] else 0.0
+                record["letters_correct"] = metrics["letters_correct"]
+                record["words_correct"] = metrics["words_correct"]
+                record["pred_words"] = metrics["pred_words"]
+                if "steps" in result:
+                    record["steps"] = result["steps"]
+                if "all_outputs" in result:
+                    record["all_outputs"] = result["all_outputs"]
+                if "vote_counts" in result:
+                    record["vote_counts"] = result["vote_counts"]
             out.write(json.dumps(record) + "\n")
             out.flush()
             status = "ok" if success else "fail"

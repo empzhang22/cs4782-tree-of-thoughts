@@ -26,6 +26,7 @@ def main():
     parser.add_argument("--problem-offset", type=int, default=None, help="Override problem_offset from config")
     parser.add_argument("--dry-run", action="store_true", help="Estimate API call count without running")
     parser.add_argument("--evaluate", action="store_true", help="Re-evaluate existing JSONL results")
+    parser.add_argument("--resume", action="store_true", help="Append to existing results and skip completed problem_ids")
     args = parser.parse_args()
 
     cfg = resolve_paths(load_config(args.config))
@@ -33,6 +34,8 @@ def main():
         cfg["n_problems"] = args.n_problems
     if args.problem_offset is not None:
         cfg["problem_offset"] = args.problem_offset
+    if args.resume:
+        cfg["resume"] = True
 
     print("Config loaded:")
     for k, v in cfg.items():
@@ -54,6 +57,14 @@ def main():
                 estimate = n * (k + e)
             elif method == "tot_bfs":
                 estimate = n * (2 * k + 2 * e)
+            else:
+                estimate = n
+        elif task == "crossword":
+            if method in {"io", "cot", "cot_sc"}:
+                estimate = n * n_samples
+            elif method == "tot_dfs":
+                # Proposal calls plus value checks vary with pruning/backtracking.
+                estimate = n * cfg.get("max_steps", 10) * (k + cfg.get("n_max_propose", 5))
             else:
                 estimate = n
         elif "tot" in method:

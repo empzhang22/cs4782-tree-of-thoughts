@@ -1,0 +1,12 @@
+task: crossword
+method: cot_sc
+model: gemini-2.5-flash
+rpm: 1000
+temperature_generate: 0.7
+n_generate: 10
+max_tokens: 768
+dataset_path: ../data/crossword/crosswords_5x5_complete.json
+n_problems: 20
+problem_offset: 0
+cache_dir: ../results/cache
+output_dir: ../results/crossword/cot_sc_gemini25flash
