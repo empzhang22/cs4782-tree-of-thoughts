@@ -1,0 +1,17 @@
+task: crossword
+method: tot_dfs
+model: gemini-2.5-flash
+rpm: 1000
+temperature_generate: 0.7
+temperature_evaluate: 0.0
+n_generate: 5
+n_max_propose: 5
+max_steps: 10
+prune_threshold: 0.0
+max_tokens: 512
+max_tokens_evaluate: 256
+dataset_path: ../data/crossword/crosswords_5x5_complete.json
+n_problems: 20
+problem_offset: 0
+cache_dir: ../results/cache
+output_dir: ../results/crossword/tot_dfs_gemini25flash

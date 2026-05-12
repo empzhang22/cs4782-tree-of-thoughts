@@ -1,0 +1,8302 @@
+[
+  {
+    "id": 1,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/1/",
+    "queries": {
+      "horizontal": {
+        "h1": "An agendum; something to be done",
+        "h2": "An engine",
+        "h3": "Pretentious; flowery",
+        "h4": "A salon; a hall",
+        "h5": "To mock; to sneer"
+      },
+      "vertical": {
+        "v1": "To heap",
+        "v2": "An Indian antelope",
+        "v3": "To intend; to plan; to devise; a nettle; to guess",
+        "v4": "A nozzle",
+        "v5": "Desiccator; more dry"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "AGEND",
+        "h2": "MOTOR",
+        "h3": "ARTSY",
+        "h4": "SALLE",
+        "h5": "SLEER"
+      },
+      "vertical": {
+        "v1": "AMASS",
+        "v2": "GORAL",
+        "v3": "ETTLE",
+        "v4": "NOSLE",
+        "v5": "DRYER"
+      }
+    },
+    "grid": [
+      [
+        "A",
+        "G",
+        "E",
+        "N",
+        "D"
+      ],
+      [
+        "M",
+        "O",
+        "T",
+        "O",
+        "R"
+      ],
+      [
+        "A",
+        "R",
+        "T",
+        "S",
+        "Y"
+      ],
+      [
+        "S",
+        "A",
+        "L",
+        "L",
+        "E"
+      ],
+      [
+        "S",
+        "L",
+        "E",
+        "E",
+        "R"
+      ]
+    ],
+    "flat": [
+      "A",
+      "G",
+      "E",
+      "N",
+      "D",
+      "M",
+      "O",
+      "T",
+      "O",
+      "R",
+      "A",
+      "R",
+      "T",
+      "S",
+      "Y",
+      "S",
+      "A",
+      "L",
+      "L",
+      "E",
+      "S",
+      "L",
+      "E",
+      "E",
+      "R"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 1,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 6,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/6/",
+    "queries": {
+      "horizontal": {
+        "h1": "To dry up",
+        "h2": "To outdo; to bandy words",
+        "h3": "A Yoruba-speaking people",
+        "h4": "A Passover meal",
+        "h5": "Eternal, everlasting"
+      },
+      "vertical": {
+        "v1": "To ascend; to get up; to come up",
+        "v2": "To regain",
+        "v3": "To elude",
+        "v4": "One who files",
+        "v5": "To crave"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "AREFY",
+        "h2": "REVIE",
+        "h3": "IGALA",
+        "h4": "SEDER",
+        "h5": "ETERN"
+      },
+      "vertical": {
+        "v1": "ARISE",
+        "v2": "REGET",
+        "v3": "EVADE",
+        "v4": "FILER",
+        "v5": "YEARN"
+      }
+    },
+    "grid": [
+      [
+        "A",
+        "R",
+        "E",
+        "F",
+        "Y"
+      ],
+      [
+        "R",
+        "E",
+        "V",
+        "I",
+        "E"
+      ],
+      [
+        "I",
+        "G",
+        "A",
+        "L",
+        "A"
+      ],
+      [
+        "S",
+        "E",
+        "D",
+        "E",
+        "R"
+      ],
+      [
+        "E",
+        "T",
+        "E",
+        "R",
+        "N"
+      ]
+    ],
+    "flat": [
+      "A",
+      "R",
+      "E",
+      "F",
+      "Y",
+      "R",
+      "E",
+      "V",
+      "I",
+      "E",
+      "I",
+      "G",
+      "A",
+      "L",
+      "A",
+      "S",
+      "E",
+      "D",
+      "E",
+      "R",
+      "E",
+      "T",
+      "E",
+      "R",
+      "N"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 6,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 11,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/11/",
+    "queries": {
+      "horizontal": {
+        "h1": "(yet more) dissonant jazz, with solo improvisations and complex rhythms",
+        "h2": "An Indian mallow",
+        "h3": "A religious brother",
+        "h4": "To take; to receive",
+        "h5": "Argal; crude tartar"
+      },
+      "vertical": {
+        "v1": "A comic actor or operatic clown",
+        "v2": "A mistake",
+        "v3": "Existence; a creature",
+        "v4": "The ruby snapper fish",
+        "v5": "Apparel; an egg preparation used to clarify wine"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "BEBOP",
+        "h2": "URENA",
+        "h3": "FRIAR",
+        "h4": "FONGE",
+        "h5": "ORGAL"
+      },
+      "vertical": {
+        "v1": "BUFFO",
+        "v2": "ERROR",
+        "v3": "BEING",
+        "v4": "ONAGA",
+        "v5": "PAREL"
+      }
+    },
+    "grid": [
+      [
+        "B",
+        "E",
+        "B",
+        "O",
+        "P"
+      ],
+      [
+        "U",
+        "R",
+        "E",
+        "N",
+        "A"
+      ],
+      [
+        "F",
+        "R",
+        "I",
+        "A",
+        "R"
+      ],
+      [
+        "F",
+        "O",
+        "N",
+        "G",
+        "E"
+      ],
+      [
+        "O",
+        "R",
+        "G",
+        "A",
+        "L"
+      ]
+    ],
+    "flat": [
+      "B",
+      "E",
+      "B",
+      "O",
+      "P",
+      "U",
+      "R",
+      "E",
+      "N",
+      "A",
+      "F",
+      "R",
+      "I",
+      "A",
+      "R",
+      "F",
+      "O",
+      "N",
+      "G",
+      "E",
+      "O",
+      "R",
+      "G",
+      "A",
+      "L"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 11,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 16,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/16/",
+    "queries": {
+      "horizontal": {
+        "h1": "The genus to which the dog and wolf belong",
+        "h2": "An Altaic language",
+        "h3": "Ramie, an Asiatic plant yielding a rope fiber",
+        "h4": "Face down; susceptible",
+        "h5": "An Indian antelope"
+      },
+      "vertical": {
+        "v1": "A contingent",
+        "v2": "The Brazilian macaw; an Australian bird",
+        "v3": "A Greek province; a law; a coin",
+        "v4": "An ancient British ethnic group",
+        "v5": "Gloss; luster"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "CANIS",
+        "h2": "OROCH",
+        "h3": "RAMEE",
+        "h4": "PRONE",
+        "h5": "SASIN"
+      },
+      "vertical": {
+        "v1": "CORPS",
+        "v2": "ARARA",
+        "v3": "NOMOS",
+        "v4": "ICENI",
+        "v5": "SHEEN"
+      }
+    },
+    "grid": [
+      [
+        "C",
+        "A",
+        "N",
+        "I",
+        "S"
+      ],
+      [
+        "O",
+        "R",
+        "O",
+        "C",
+        "H"
+      ],
+      [
+        "R",
+        "A",
+        "M",
+        "E",
+        "E"
+      ],
+      [
+        "P",
+        "R",
+        "O",
+        "N",
+        "E"
+      ],
+      [
+        "S",
+        "A",
+        "S",
+        "I",
+        "N"
+      ]
+    ],
+    "flat": [
+      "C",
+      "A",
+      "N",
+      "I",
+      "S",
+      "O",
+      "R",
+      "O",
+      "C",
+      "H",
+      "R",
+      "A",
+      "M",
+      "E",
+      "E",
+      "P",
+      "R",
+      "O",
+      "N",
+      "E",
+      "S",
+      "A",
+      "S",
+      "I",
+      "N"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 16,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 21,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/21/",
+    "queries": {
+      "horizontal": {
+        "h1": "To choose",
+        "h2": "A spiral, usually three dimensional",
+        "h3": "Notched or uneven, as if gnawed away (cognate with \"erode\")",
+        "h4": "A drinker; a sedative",
+        "h5": "A pound sterling"
+      },
+      "vertical": {
+        "v1": "A board game; a British river",
+        "v2": "A wading bird",
+        "v3": "To run away together to get married",
+        "v4": "Cider; sicer",
+        "v5": "To put into action"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "CHESE",
+        "h2": "HELIX",
+        "h3": "EROSE",
+        "h4": "SOPER",
+        "h5": "SNERT"
+      },
+      "vertical": {
+        "v1": "CHESS",
+        "v2": "HERON",
+        "v3": "ELOPE",
+        "v4": "SISER",
+        "v5": "EXERT"
+      }
+    },
+    "grid": [
+      [
+        "C",
+        "H",
+        "E",
+        "S",
+        "E"
+      ],
+      [
+        "H",
+        "E",
+        "L",
+        "I",
+        "X"
+      ],
+      [
+        "E",
+        "R",
+        "O",
+        "S",
+        "E"
+      ],
+      [
+        "S",
+        "O",
+        "P",
+        "E",
+        "R"
+      ],
+      [
+        "S",
+        "N",
+        "E",
+        "R",
+        "T"
+      ]
+    ],
+    "flat": [
+      "C",
+      "H",
+      "E",
+      "S",
+      "E",
+      "H",
+      "E",
+      "L",
+      "I",
+      "X",
+      "E",
+      "R",
+      "O",
+      "S",
+      "E",
+      "S",
+      "O",
+      "P",
+      "E",
+      "R",
+      "S",
+      "N",
+      "E",
+      "R",
+      "T"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 21,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 26,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/26/",
+    "queries": {
+      "horizontal": {
+        "h1": "To choose",
+        "h2": "A coin",
+        "h3": "A European owl",
+        "h4": "To slide; to skulk",
+        "h5": "One who uses a hose; a good guy"
+      },
+      "vertical": {
+        "v1": "To subdue; to crumple; a hidden romantic attraction",
+        "v2": "A greeting",
+        "v3": "The Islamic name for Satan",
+        "v4": "To sift",
+        "v5": "One who eats"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "CHESE",
+        "h2": "REBIA",
+        "h3": "ULLET",
+        "h4": "SLIVE",
+        "h5": "HOSER"
+      },
+      "vertical": {
+        "v1": "CRUSH",
+        "v2": "HELLO",
+        "v3": "EBLIS",
+        "v4": "SIEVE",
+        "v5": "EATER"
+      }
+    },
+    "grid": [
+      [
+        "C",
+        "H",
+        "E",
+        "S",
+        "E"
+      ],
+      [
+        "R",
+        "E",
+        "B",
+        "I",
+        "A"
+      ],
+      [
+        "U",
+        "L",
+        "L",
+        "E",
+        "T"
+      ],
+      [
+        "S",
+        "L",
+        "I",
+        "V",
+        "E"
+      ],
+      [
+        "H",
+        "O",
+        "S",
+        "E",
+        "R"
+      ]
+    ],
+    "flat": [
+      "C",
+      "H",
+      "E",
+      "S",
+      "E",
+      "R",
+      "E",
+      "B",
+      "I",
+      "A",
+      "U",
+      "L",
+      "L",
+      "E",
+      "T",
+      "S",
+      "L",
+      "I",
+      "V",
+      "E",
+      "H",
+      "O",
+      "S",
+      "E",
+      "R"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 26,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 31,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/31/",
+    "queries": {
+      "horizontal": {
+        "h1": "To hold onto",
+        "h2": "An enlarged tool",
+        "h3": "Shaded or dyed; a 3 person card game using 40 cards",
+        "h4": "To subdue; to terrify; a Central American timber tree",
+        "h5": "A limestone region marked by sinks, abrupt ridges, protuberant rocks"
+      },
+      "vertical": {
+        "v1": "A frog sound; to die",
+        "v2": "A semitone",
+        "v3": "To exclude",
+        "v4": "An interjection expressing exasperation; nonsense",
+        "v5": "To salute"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "CLING",
+        "h2": "RIMER",
+        "h3": "OMBRE",
+        "h4": "AMATE",
+        "h5": "KARST"
+      },
+      "vertical": {
+        "v1": "CROAK",
+        "v2": "LIMMA",
+        "v3": "IMBAR",
+        "v4": "NERTS",
+        "v5": "GREET"
+      }
+    },
+    "grid": [
+      [
+        "C",
+        "L",
+        "I",
+        "N",
+        "G"
+      ],
+      [
+        "R",
+        "I",
+        "M",
+        "E",
+        "R"
+      ],
+      [
+        "O",
+        "M",
+        "B",
+        "R",
+        "E"
+      ],
+      [
+        "A",
+        "M",
+        "A",
+        "T",
+        "E"
+      ],
+      [
+        "K",
+        "A",
+        "R",
+        "S",
+        "T"
+      ]
+    ],
+    "flat": [
+      "C",
+      "L",
+      "I",
+      "N",
+      "G",
+      "R",
+      "I",
+      "M",
+      "E",
+      "R",
+      "O",
+      "M",
+      "B",
+      "R",
+      "E",
+      "A",
+      "M",
+      "A",
+      "T",
+      "E",
+      "K",
+      "A",
+      "R",
+      "S",
+      "T"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 31,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 36,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/36/",
+    "queries": {
+      "horizontal": {
+        "h1": "Is able",
+        "h2": "A bard",
+        "h3": "A theme; an attempt",
+        "h4": "To sift",
+        "h5": "A leather dresser; someone who shoots a marble"
+      },
+      "vertical": {
+        "v1": "A top; a heraldic device",
+        "v2": "True being",
+        "v3": "To undo the sewing of",
+        "v4": "To depart; permission",
+        "v5": "Desiccator; more dry"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "COULD",
+        "h2": "RUNER",
+        "h3": "ESSAY",
+        "h4": "SIEVE",
+        "h5": "TAWER"
+      },
+      "vertical": {
+        "v1": "CREST",
+        "v2": "OUSIA",
+        "v3": "UNSEW",
+        "v4": "LEAVE",
+        "v5": "DRYER"
+      }
+    },
+    "grid": [
+      [
+        "C",
+        "O",
+        "U",
+        "L",
+        "D"
+      ],
+      [
+        "R",
+        "U",
+        "N",
+        "E",
+        "R"
+      ],
+      [
+        "E",
+        "S",
+        "S",
+        "A",
+        "Y"
+      ],
+      [
+        "S",
+        "I",
+        "E",
+        "V",
+        "E"
+      ],
+      [
+        "T",
+        "A",
+        "W",
+        "E",
+        "R"
+      ]
+    ],
+    "flat": [
+      "C",
+      "O",
+      "U",
+      "L",
+      "D",
+      "R",
+      "U",
+      "N",
+      "E",
+      "R",
+      "E",
+      "S",
+      "S",
+      "A",
+      "Y",
+      "S",
+      "I",
+      "E",
+      "V",
+      "E",
+      "T",
+      "A",
+      "W",
+      "E",
+      "R"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 36,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 41,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/41/",
+    "queries": {
+      "horizontal": {
+        "h1": "A music style; a dance hall",
+        "h2": "To remove the hat",
+        "h3": "Unhidden; explicit",
+        "h4": "The minister's house",
+        "h5": "To demand; to arrange;"
+      },
+      "vertical": {
+        "v1": "An Italian domed cathedral",
+        "v2": "A nickel steel alloy",
+        "v3": "To disgrace; to blame; to injure",
+        "v4": "Low-lying fertile land",
+        "v5": "A sea mammal; a fishing device"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "DISCO",
+        "h2": "UNHAT",
+        "h3": "OVERT",
+        "h4": "MANSE",
+        "h5": "ORDER"
+      },
+      "vertical": {
+        "v1": "DUOMO",
+        "v2": "INVAR",
+        "v3": "SHEND",
+        "v4": "CARSE",
+        "v5": "OTTER"
+      }
+    },
+    "grid": [
+      [
+        "D",
+        "I",
+        "S",
+        "C",
+        "O"
+      ],
+      [
+        "U",
+        "N",
+        "H",
+        "A",
+        "T"
+      ],
+      [
+        "O",
+        "V",
+        "E",
+        "R",
+        "T"
+      ],
+      [
+        "M",
+        "A",
+        "N",
+        "S",
+        "E"
+      ],
+      [
+        "O",
+        "R",
+        "D",
+        "E",
+        "R"
+      ]
+    ],
+    "flat": [
+      "D",
+      "I",
+      "S",
+      "C",
+      "O",
+      "U",
+      "N",
+      "H",
+      "A",
+      "T",
+      "O",
+      "V",
+      "E",
+      "R",
+      "T",
+      "M",
+      "A",
+      "N",
+      "S",
+      "E",
+      "O",
+      "R",
+      "D",
+      "E",
+      "R"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 41,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 46,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/46/",
+    "queries": {
+      "horizontal": {
+        "h1": "To belch, to burp",
+        "h2": "A location",
+        "h3": "To warn",
+        "h4": "A dipsomaniac",
+        "h5": "To come in"
+      },
+      "vertical": {
+        "v1": "To elude",
+        "v2": "To win again",
+        "v3": "Inept; irrelevant",
+        "v4": "To execrate",
+        "v5": "Purport; a trend; a singing voice"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "ERUCT",
+        "h2": "VENUE",
+        "h3": "AWARN",
+        "h4": "DIPSO",
+        "h5": "ENTER"
+      },
+      "vertical": {
+        "v1": "EVADE",
+        "v2": "REWIN",
+        "v3": "UNAPT",
+        "v4": "CURSE",
+        "v5": "TENOR"
+      }
+    },
+    "grid": [
+      [
+        "E",
+        "R",
+        "U",
+        "C",
+        "T"
+      ],
+      [
+        "V",
+        "E",
+        "N",
+        "U",
+        "E"
+      ],
+      [
+        "A",
+        "W",
+        "A",
+        "R",
+        "N"
+      ],
+      [
+        "D",
+        "I",
+        "P",
+        "S",
+        "O"
+      ],
+      [
+        "E",
+        "N",
+        "T",
+        "E",
+        "R"
+      ]
+    ],
+    "flat": [
+      "E",
+      "R",
+      "U",
+      "C",
+      "T",
+      "V",
+      "E",
+      "N",
+      "U",
+      "E",
+      "A",
+      "W",
+      "A",
+      "R",
+      "N",
+      "D",
+      "I",
+      "P",
+      "S",
+      "O",
+      "E",
+      "N",
+      "T",
+      "E",
+      "R"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 46,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 51,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/51/",
+    "queries": {
+      "horizontal": {
+        "h1": "A custard",
+        "h2": "A lithograph",
+        "h3": "Anatomically on the inside",
+        "h4": "An agendum; something to be done",
+        "h5": "To combine"
+      },
+      "vertical": {
+        "v1": "A sharp surgical lancet used for opening veins to cause bloodletting; a bevel angle",
+        "v2": "To strike or flog",
+        "v3": "Corrupt matter from a sore; a tongue coating",
+        "v4": "A bang; a leather thong; to shoot; a shive; the penis",
+        "v5": "Would not"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "FLAWN",
+        "h2": "LITHO",
+        "h3": "ENTAL",
+        "h4": "AGEND",
+        "h5": "MERGE"
+      },
+      "vertical": {
+        "v1": "FLEAM",
+        "v2": "LINGE",
+        "v3": "ATTER",
+        "v4": "WHANG",
+        "v5": "NOLDE"
+      }
+    },
+    "grid": [
+      [
+        "F",
+        "L",
+        "A",
+        "W",
+        "N"
+      ],
+      [
+        "L",
+        "I",
+        "T",
+        "H",
+        "O"
+      ],
+      [
+        "E",
+        "N",
+        "T",
+        "A",
+        "L"
+      ],
+      [
+        "A",
+        "G",
+        "E",
+        "N",
+        "D"
+      ],
+      [
+        "M",
+        "E",
+        "R",
+        "G",
+        "E"
+      ]
+    ],
+    "flat": [
+      "F",
+      "L",
+      "A",
+      "W",
+      "N",
+      "L",
+      "I",
+      "T",
+      "H",
+      "O",
+      "E",
+      "N",
+      "T",
+      "A",
+      "L",
+      "A",
+      "G",
+      "E",
+      "N",
+      "D",
+      "M",
+      "E",
+      "R",
+      "G",
+      "E"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 51,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 56,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/56/",
+    "queries": {
+      "horizontal": {
+        "h1": "A crowd; a mob",
+        "h2": "To get a fresh crew",
+        "h3": "An American Indian tribe",
+        "h4": "A tribal emblem",
+        "h5": "A room for storing ewers"
+      },
+      "vertical": {
+        "v1": "To chafe or rub",
+        "v2": "To sow again",
+        "v3": "To subdue; to terrify; a Central American timber tree",
+        "v4": "An electronic message device",
+        "v5": "A foe"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "FRAPE",
+        "h2": "REMAN",
+        "h3": "OSAGE",
+        "h4": "TOTEM",
+        "h5": "EWERY"
+      },
+      "vertical": {
+        "v1": "FROTE",
+        "v2": "RESOW",
+        "v3": "AMATE",
+        "v4": "PAGER",
+        "v5": "ENEMY"
+      }
+    },
+    "grid": [
+      [
+        "F",
+        "R",
+        "A",
+        "P",
+        "E"
+      ],
+      [
+        "R",
+        "E",
+        "M",
+        "A",
+        "N"
+      ],
+      [
+        "O",
+        "S",
+        "A",
+        "G",
+        "E"
+      ],
+      [
+        "T",
+        "O",
+        "T",
+        "E",
+        "M"
+      ],
+      [
+        "E",
+        "W",
+        "E",
+        "R",
+        "Y"
+      ]
+    ],
+    "flat": [
+      "F",
+      "R",
+      "A",
+      "P",
+      "E",
+      "R",
+      "E",
+      "M",
+      "A",
+      "N",
+      "O",
+      "S",
+      "A",
+      "G",
+      "E",
+      "T",
+      "O",
+      "T",
+      "E",
+      "M",
+      "E",
+      "W",
+      "E",
+      "R",
+      "Y"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 56,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 61,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/61/",
+    "queries": {
+      "horizontal": {
+        "h1": "A woodland",
+        "h2": "An alarm",
+        "h3": "A tropical lizard",
+        "h4": "To increase; to lift up; to rear",
+        "h5": "A duck, or its down; a quilt or comforter"
+      },
+      "vertical": {
+        "v1": "To stare at angrily; a harsh light",
+        "v2": "A veranda",
+        "v3": "A plant allied to the arum",
+        "v4": "An edible seaweed (if you say so)",
+        "v5": "An Arab prince"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "GLADE",
+        "h2": "LARUM",
+        "h3": "ANOLE",
+        "h4": "RAISE",
+        "h5": "EIDER"
+      },
+      "vertical": {
+        "v1": "GLARE",
+        "v2": "LANAI",
+        "v3": "AROID",
+        "v4": "DULSE",
+        "v5": "EMEER"
+      }
+    },
+    "grid": [
+      [
+        "G",
+        "L",
+        "A",
+        "D",
+        "E"
+      ],
+      [
+        "L",
+        "A",
+        "R",
+        "U",
+        "M"
+      ],
+      [
+        "A",
+        "N",
+        "O",
+        "L",
+        "E"
+      ],
+      [
+        "R",
+        "A",
+        "I",
+        "S",
+        "E"
+      ],
+      [
+        "E",
+        "I",
+        "D",
+        "E",
+        "R"
+      ]
+    ],
+    "flat": [
+      "G",
+      "L",
+      "A",
+      "D",
+      "E",
+      "L",
+      "A",
+      "R",
+      "U",
+      "M",
+      "A",
+      "N",
+      "O",
+      "L",
+      "E",
+      "R",
+      "A",
+      "I",
+      "S",
+      "E",
+      "E",
+      "I",
+      "D",
+      "E",
+      "R"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 61,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 66,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/66/",
+    "queries": {
+      "horizontal": {
+        "h1": "A woodland",
+        "h2": "A flight feather",
+        "h3": "The soft palate",
+        "h4": "Mesial; median",
+        "h5": "A river boat"
+      },
+      "vertical": {
+        "v1": "A complainer",
+        "v2": "Flat; a stage; to be honest with",
+        "v3": "To entertain",
+        "v4": "To dally; to put off",
+        "v5": "To praise; to raise higher"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "GLADE",
+        "h2": "REMEX",
+        "h3": "UVULA",
+        "h4": "MESAL",
+        "h5": "PLEYT"
+      },
+      "vertical": {
+        "v1": "GRUMP",
+        "v2": "LEVEL",
+        "v3": "AMUSE",
+        "v4": "DELAY",
+        "v5": "EXALT"
+      }
+    },
+    "grid": [
+      [
+        "G",
+        "L",
+        "A",
+        "D",
+        "E"
+      ],
+      [
+        "R",
+        "E",
+        "M",
+        "E",
+        "X"
+      ],
+      [
+        "U",
+        "V",
+        "U",
+        "L",
+        "A"
+      ],
+      [
+        "M",
+        "E",
+        "S",
+        "A",
+        "L"
+      ],
+      [
+        "P",
+        "L",
+        "E",
+        "Y",
+        "T"
+      ]
+    ],
+    "flat": [
+      "G",
+      "L",
+      "A",
+      "D",
+      "E",
+      "R",
+      "E",
+      "M",
+      "E",
+      "X",
+      "U",
+      "V",
+      "U",
+      "L",
+      "A",
+      "M",
+      "E",
+      "S",
+      "A",
+      "L",
+      "P",
+      "L",
+      "E",
+      "Y",
+      "T"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 66,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 71,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/71/",
+    "queries": {
+      "horizontal": {
+        "h1": "A language",
+        "h2": "To impose a fine upon",
+        "h3": "To lower; to reduce",
+        "h4": "To clean; to wash quickly with water",
+        "h5": "Atap, the nipa palm"
+      },
+      "vertical": {
+        "v1": "A tropical American tree",
+        "v2": "Not bitten",
+        "v3": "A heraldic mastiff",
+        "v4": "A dog whelk or its shell",
+        "v5": "A computer user"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "GUANG",
+        "h2": "UNLAW",
+        "h3": "ABASE",
+        "h4": "RINSE",
+        "h5": "ATTAP"
+      },
+      "vertical": {
+        "v1": "GUARA",
+        "v2": "UNBIT",
+        "v3": "ALANT",
+        "v4": "NASSA",
+        "v5": "GWEEP"
+      }
+    },
+    "grid": [
+      [
+        "G",
+        "U",
+        "A",
+        "N",
+        "G"
+      ],
+      [
+        "U",
+        "N",
+        "L",
+        "A",
+        "W"
+      ],
+      [
+        "A",
+        "B",
+        "A",
+        "S",
+        "E"
+      ],
+      [
+        "R",
+        "I",
+        "N",
+        "S",
+        "E"
+      ],
+      [
+        "A",
+        "T",
+        "T",
+        "A",
+        "P"
+      ]
+    ],
+    "flat": [
+      "G",
+      "U",
+      "A",
+      "N",
+      "G",
+      "U",
+      "N",
+      "L",
+      "A",
+      "W",
+      "A",
+      "B",
+      "A",
+      "S",
+      "E",
+      "R",
+      "I",
+      "N",
+      "S",
+      "E",
+      "A",
+      "T",
+      "T",
+      "A",
+      "P"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 71,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 76,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/76/",
+    "queries": {
+      "horizontal": {
+        "h1": "The Kaiser",
+        "h2": "An introduction",
+        "h3": "Public disgrace",
+        "h4": "The belly button, which Adam and Eve might not have had",
+        "h5": "A buzzard; a kite; a red hot coal used to light a fire"
+      },
+      "vertical": {
+        "v1": "A Tibetan wild horse",
+        "v2": "Anatomically on the inside",
+        "v3": "To stew; to stuff up; floating dust",
+        "v4": "Equipped; having arms",
+        "v5": "To rile; to salt fish"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "KESAR",
+        "h2": "INTRO",
+        "h3": "ATIMY",
+        "h4": "NAVEL",
+        "h5": "GLEDE"
+      },
+      "vertical": {
+        "v1": "KIANG",
+        "v2": "ENTAL",
+        "v3": "STIVE",
+        "v4": "ARMED",
+        "v5": "ROYLE"
+      }
+    },
+    "grid": [
+      [
+        "K",
+        "E",
+        "S",
+        "A",
+        "R"
+      ],
+      [
+        "I",
+        "N",
+        "T",
+        "R",
+        "O"
+      ],
+      [
+        "A",
+        "T",
+        "I",
+        "M",
+        "Y"
+      ],
+      [
+        "N",
+        "A",
+        "V",
+        "E",
+        "L"
+      ],
+      [
+        "G",
+        "L",
+        "E",
+        "D",
+        "E"
+      ]
+    ],
+    "flat": [
+      "K",
+      "E",
+      "S",
+      "A",
+      "R",
+      "I",
+      "N",
+      "T",
+      "R",
+      "O",
+      "A",
+      "T",
+      "I",
+      "M",
+      "Y",
+      "N",
+      "A",
+      "V",
+      "E",
+      "L",
+      "G",
+      "L",
+      "E",
+      "D",
+      "E"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 76,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 81,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/81/",
+    "queries": {
+      "horizontal": {
+        "h1": "A biblical place",
+        "h2": "Relating to sheep",
+        "h3": "A woodland",
+        "h4": "Anatomically on the inside",
+        "h5": "A realm"
+      },
+      "vertical": {
+        "v1": "A person or instrument that cuts down",
+        "v2": "To happen",
+        "v3": "A lariat; a lasso",
+        "v4": "An Irish doctor",
+        "v5": "To meddle; to mix"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "MEROM",
+        "h2": "OVILE",
+        "h3": "WEALD",
+        "h4": "ENTAL",
+        "h5": "REAME"
+      },
+      "vertical": {
+        "v1": "MOWER",
+        "v2": "EVENE",
+        "v3": "RIATA",
+        "v4": "OLLAM",
+        "v5": "MEDLE"
+      }
+    },
+    "grid": [
+      [
+        "M",
+        "E",
+        "R",
+        "O",
+        "M"
+      ],
+      [
+        "O",
+        "V",
+        "I",
+        "L",
+        "E"
+      ],
+      [
+        "W",
+        "E",
+        "A",
+        "L",
+        "D"
+      ],
+      [
+        "E",
+        "N",
+        "T",
+        "A",
+        "L"
+      ],
+      [
+        "R",
+        "E",
+        "A",
+        "M",
+        "E"
+      ]
+    ],
+    "flat": [
+      "M",
+      "E",
+      "R",
+      "O",
+      "M",
+      "O",
+      "V",
+      "I",
+      "L",
+      "E",
+      "W",
+      "E",
+      "A",
+      "L",
+      "D",
+      "E",
+      "N",
+      "T",
+      "A",
+      "L",
+      "R",
+      "E",
+      "A",
+      "M",
+      "E"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 81,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 86,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/86/",
+    "queries": {
+      "horizontal": {
+        "h1": "A deity associated with a natural object",
+        "h2": "A habit or custom",
+        "h3": "To munch",
+        "h4": "Inquires into; forces open using leverage",
+        "h5": "Extra; to withhold punishment; thin"
+      },
+      "vertical": {
+        "v1": "A fool; a stupid person",
+        "v2": "To displace illegally or unfairly",
+        "v3": "A craze",
+        "v4": "An inciter; various moths whose larva feed on tree leaves; a lobster bearing an egg mass; one who collects eggs",
+        "v5": "To sneeze"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "NUMEN",
+        "h2": "USAGE",
+        "h3": "MUNGE",
+        "h4": "PRIES",
+        "h5": "SPARE"
+      },
+      "vertical": {
+        "v1": "NUMPS",
+        "v2": "USURP",
+        "v3": "MANIA",
+        "v4": "EGGER",
+        "v5": "NEESE"
+      }
+    },
+    "grid": [
+      [
+        "N",
+        "U",
+        "M",
+        "E",
+        "N"
+      ],
+      [
+        "U",
+        "S",
+        "A",
+        "G",
+        "E"
+      ],
+      [
+        "M",
+        "U",
+        "N",
+        "G",
+        "E"
+      ],
+      [
+        "P",
+        "R",
+        "I",
+        "E",
+        "S"
+      ],
+      [
+        "S",
+        "P",
+        "A",
+        "R",
+        "E"
+      ]
+    ],
+    "flat": [
+      "N",
+      "U",
+      "M",
+      "E",
+      "N",
+      "U",
+      "S",
+      "A",
+      "G",
+      "E",
+      "M",
+      "U",
+      "N",
+      "G",
+      "E",
+      "P",
+      "R",
+      "I",
+      "E",
+      "S",
+      "S",
+      "P",
+      "A",
+      "R",
+      "E"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 86,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 91,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/91/",
+    "queries": {
+      "horizontal": {
+        "h1": "A tit-lark",
+        "h2": "A Turkish written decree",
+        "h3": "An ancient name for Korea",
+        "h4": "More healthy; a coin",
+        "h5": "Operating on a single object"
+      },
+      "vertical": {
+        "v1": "The Canada lynx",
+        "v2": "Relating to the iris",
+        "v3": "An ancient Roman full outer robe or wrap worn outdoors by women",
+        "v4": "One who does nothing",
+        "v5": "Weepy; tear-filled"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "PIPIT",
+        "h2": "IRADE",
+        "h3": "SILLA",
+        "h4": "HALER",
+        "h5": "UNARY"
+      },
+      "vertical": {
+        "v1": "PISHU",
+        "v2": "IRIAN",
+        "v3": "PALLA",
+        "v4": "IDLER",
+        "v5": "TEARY"
+      }
+    },
+    "grid": [
+      [
+        "P",
+        "I",
+        "P",
+        "I",
+        "T"
+      ],
+      [
+        "I",
+        "R",
+        "A",
+        "D",
+        "E"
+      ],
+      [
+        "S",
+        "I",
+        "L",
+        "L",
+        "A"
+      ],
+      [
+        "H",
+        "A",
+        "L",
+        "E",
+        "R"
+      ],
+      [
+        "U",
+        "N",
+        "A",
+        "R",
+        "Y"
+      ]
+    ],
+    "flat": [
+      "P",
+      "I",
+      "P",
+      "I",
+      "T",
+      "I",
+      "R",
+      "A",
+      "D",
+      "E",
+      "S",
+      "I",
+      "L",
+      "L",
+      "A",
+      "H",
+      "A",
+      "L",
+      "E",
+      "R",
+      "U",
+      "N",
+      "A",
+      "R",
+      "Y"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 91,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 96,
+    "split": "test",
+    "url": "https://www.goobix.com/crosswords/0505/96/",
+    "queries": {
+      "horizontal": {
+        "h1": "To stamp; to brand; to impress; to put into type",
+        "h2": "A scarf; a cymar; a loose dress",
+        "h3": "To cut",
+        "h4": "To perceive; wisdom; reason; feeling",
+        "h5": "The ridges on a tire; to walk heavily"
+      },
+      "vertical": {
+        "v1": "A signaling sound",
+        "v2": "A rice processor; an implement for ricing potatoes",
+        "v3": "A chemical compound",
+        "v4": "A dog whelk or its shell",
+        "v5": "Chased up a tree"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "PRINT",
+        "h2": "SIMAR",
+        "h3": "SCISE",
+        "h4": "SENSE",
+        "h5": "TREAD"
+      },
+      "vertical": {
+        "v1": "PSSST",
+        "v2": "RICER",
+        "v3": "IMINE",
+        "v4": "NASSA",
+        "v5": "TREED"
+      }
+    },
+    "grid": [
+      [
+        "P",
+        "R",
+        "I",
+        "N",
+        "T"
+      ],
+      [
+        "S",
+        "I",
+        "M",
+        "A",
+        "R"
+      ],
+      [
+        "S",
+        "C",
+        "I",
+        "S",
+        "E"
+      ],
+      [
+        "S",
+        "E",
+        "N",
+        "S",
+        "E"
+      ],
+      [
+        "T",
+        "R",
+        "E",
+        "A",
+        "D"
+      ]
+    ],
+    "flat": [
+      "P",
+      "R",
+      "I",
+      "N",
+      "T",
+      "S",
+      "I",
+      "M",
+      "A",
+      "R",
+      "S",
+      "C",
+      "I",
+      "S",
+      "E",
+      "S",
+      "E",
+      "N",
+      "S",
+      "E",
+      "T",
+      "R",
+      "E",
+      "A",
+      "D"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 96,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 136,
+    "split": "prompting",
+    "url": "https://www.goobix.com/crosswords/0505/136/",
+    "queries": {
+      "horizontal": {
+        "h1": "An English sparrow",
+        "h2": "To remit; to dispense with",
+        "h3": "A granular crystalline dyke rock",
+        "h4": "To make joyful",
+        "h5": "A small chaffy bract"
+      },
+      "vertical": {
+        "v1": "To brush away; an oar",
+        "v2": "An ancient Roman full outer robe or wrap worn outdoors by women",
+        "v3": "A competitor",
+        "v4": "Grape jam",
+        "v5": "A civet cat, or its fur"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "SPRUG",
+        "h2": "WAIVE",
+        "h3": "ELVAN",
+        "h4": "ELATE",
+        "h5": "PALET"
+      },
+      "vertical": {
+        "v1": "SWEEP",
+        "v2": "PALLA",
+        "v3": "RIVAL",
+        "v4": "UVATE",
+        "v5": "GENET"
+      }
+    },
+    "grid": [
+      [
+        "S",
+        "P",
+        "R",
+        "U",
+        "G"
+      ],
+      [
+        "W",
+        "A",
+        "I",
+        "V",
+        "E"
+      ],
+      [
+        "E",
+        "L",
+        "V",
+        "A",
+        "N"
+      ],
+      [
+        "E",
+        "L",
+        "A",
+        "T",
+        "E"
+      ],
+      [
+        "P",
+        "A",
+        "L",
+        "E",
+        "T"
+      ]
+    ],
+    "flat": [
+      "S",
+      "P",
+      "R",
+      "U",
+      "G",
+      "W",
+      "A",
+      "I",
+      "V",
+      "E",
+      "E",
+      "L",
+      "V",
+      "A",
+      "N",
+      "E",
+      "L",
+      "A",
+      "T",
+      "E",
+      "P",
+      "A",
+      "L",
+      "E",
+      "T"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 136,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 141,
+    "split": "prompting",
+    "url": "https://www.goobix.com/crosswords/0505/141/",
+    "queries": {
+      "horizontal": {
+        "h1": "An Islamic bier or tomb",
+        "h2": "An old fashioned term for various medical remedies",
+        "h3": "A corpse; the Corsican dialect; a European cape",
+        "h4": "An Arab prince",
+        "h5": "A French pastry"
+      },
+      "vertical": {
+        "v1": "A musical rest or silence",
+        "v2": "A scent",
+        "v3": "An insect; a sea worm",
+        "v4": "To capsize; to disturb",
+        "v5": "At a remote place"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "TABUT",
+        "h2": "AROPH",
+        "h3": "CORSE",
+        "h4": "EMEER",
+        "h5": "TARTE"
+      },
+      "vertical": {
+        "v1": "TACET",
+        "v2": "AROMA",
+        "v3": "BORER",
+        "v4": "UPSET",
+        "v5": "THERE"
+      }
+    },
+    "grid": [
+      [
+        "T",
+        "A",
+        "B",
+        "U",
+        "T"
+      ],
+      [
+        "A",
+        "R",
+        "O",
+        "P",
+        "H"
+      ],
+      [
+        "C",
+        "O",
+        "R",
+        "S",
+        "E"
+      ],
+      [
+        "E",
+        "M",
+        "E",
+        "E",
+        "R"
+      ],
+      [
+        "T",
+        "A",
+        "R",
+        "T",
+        "E"
+      ]
+    ],
+    "flat": [
+      "T",
+      "A",
+      "B",
+      "U",
+      "T",
+      "A",
+      "R",
+      "O",
+      "P",
+      "H",
+      "C",
+      "O",
+      "R",
+      "S",
+      "E",
+      "E",
+      "M",
+      "E",
+      "E",
+      "R",
+      "T",
+      "A",
+      "R",
+      "T",
+      "E"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 141,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 146,
+    "split": "prompting",
+    "url": "https://www.goobix.com/crosswords/0505/146/",
+    "queries": {
+      "horizontal": {
+        "h1": "Arbor vitae",
+        "h2": "A competitor",
+        "h3": "A cloister",
+        "h4": "Resembling a stake",
+        "h5": "A characteristic"
+      },
+      "vertical": {
+        "v1": "Poetic \"trapped\"",
+        "v2": "Pertaining to a hilum, the mark or scar on a seed produced by separation",
+        "v3": "The soft palate",
+        "v4": "A language",
+        "v5": "Wary; conscious; watchful"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "THUJA",
+        "h2": "RIVAL",
+        "h3": "ALURE",
+        "h4": "PALAR",
+        "h5": "TRAIT"
+      },
+      "vertical": {
+        "v1": "TRAPT",
+        "v2": "HILAR",
+        "v3": "UVULA",
+        "v4": "JARAI",
+        "v5": "ALERT"
+      }
+    },
+    "grid": [
+      [
+        "T",
+        "H",
+        "U",
+        "J",
+        "A"
+      ],
+      [
+        "R",
+        "I",
+        "V",
+        "A",
+        "L"
+      ],
+      [
+        "A",
+        "L",
+        "U",
+        "R",
+        "E"
+      ],
+      [
+        "P",
+        "A",
+        "L",
+        "A",
+        "R"
+      ],
+      [
+        "T",
+        "R",
+        "A",
+        "I",
+        "T"
+      ]
+    ],
+    "flat": [
+      "T",
+      "H",
+      "U",
+      "J",
+      "A",
+      "R",
+      "I",
+      "V",
+      "A",
+      "L",
+      "A",
+      "L",
+      "U",
+      "R",
+      "E",
+      "P",
+      "A",
+      "L",
+      "A",
+      "R",
+      "T",
+      "R",
+      "A",
+      "I",
+      "T"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 146,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 151,
+    "split": "prompting",
+    "url": "https://www.goobix.com/crosswords/0505/151/",
+    "queries": {
+      "horizontal": {
+        "h1": "To release from a peg",
+        "h2": "A musical phrase",
+        "h3": "A seducer; a sound alarm",
+        "h4": "To concur",
+        "h5": "Not fermented; unleavened"
+      },
+      "vertical": {
+        "v1": "Not sat through",
+        "v2": "A horse sound",
+        "v3": "The dunlin bird",
+        "v4": "An Arab prince",
+        "v5": "A thief; ganev; ganof; ganov; gonaf; gonef; gonev; gonif; gonof"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "UNPEG",
+        "h2": "NEUMA",
+        "h3": "SIREN",
+        "h4": "AGREE",
+        "h5": "THERF"
+      },
+      "vertical": {
+        "v1": "UNSAT",
+        "v2": "NEIGH",
+        "v3": "PURRE",
+        "v4": "EMEER",
+        "v5": "GANEF"
+      }
+    },
+    "grid": [
+      [
+        "U",
+        "N",
+        "P",
+        "E",
+        "G"
+      ],
+      [
+        "N",
+        "E",
+        "U",
+        "M",
+        "A"
+      ],
+      [
+        "S",
+        "I",
+        "R",
+        "E",
+        "N"
+      ],
+      [
+        "A",
+        "G",
+        "R",
+        "E",
+        "E"
+      ],
+      [
+        "T",
+        "H",
+        "E",
+        "R",
+        "F"
+      ]
+    ],
+    "flat": [
+      "U",
+      "N",
+      "P",
+      "E",
+      "G",
+      "N",
+      "E",
+      "U",
+      "M",
+      "A",
+      "S",
+      "I",
+      "R",
+      "E",
+      "N",
+      "A",
+      "G",
+      "R",
+      "E",
+      "E",
+      "T",
+      "H",
+      "E",
+      "R",
+      "F"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 151,
+      "match_method": "exact_clue_match"
+    }
+  },
+  {
+    "id": 156,
+    "split": "prompting",
+    "url": "https://www.goobix.com/crosswords/0505/156/",
+    "queries": {
+      "horizontal": {
+        "h1": "A quay, dock, pier",
+        "h2": "Dewy; roscid",
+        "h3": "A person with an all-consuming enthusiasm, such as for computers or anime",
+        "h4": "A nabk",
+        "h5": "A woodland"
+      },
+      "vertical": {
+        "v1": "Incorrect; to injure",
+        "v2": "An inn",
+        "v3": "A Turkish oxcart; a howling monkey",
+        "v4": "Searched; combed",
+        "v5": "Chance; a parasitic worm; a fish"
+      }
+    },
+    "answers": {
+      "horizontal": {
+        "h1": "WHARF",
+        "h2": "RORAL",
+        "h3": "OTAKU",
+        "h4": "NEBEK",
+        "h5": "GLADE"
+      },
+      "vertical": {
+        "v1": "WRONG",
+        "v2": "HOTEL",
+        "v3": "ARABA",
+        "v4": "RAKED",
+        "v5": "FLUKE"
+      }
+    },
+    "grid": [
+      [
+        "W",
+        "H",
+        "A",
+        "R",
+        "F"
+      ],
+      [
+        "R",
+        "O",
+        "R",
+        "A",
+        "L"
+      ],
+      [
+        "O",
+        "T",
+        "A",
+        "K",
+        "U"
+      ],
+      [
+        "N",
+        "E",
+        "B",
+        "E",
+        "K"
+      ],
+      [
+        "G",
+        "L",
+        "A",
+        "D",
+        "E"
+      ]
+    ],
+    "flat": [
+      "W",
+      "H",
+      "A",
+      "R",
+      "F",
+      "R",
+      "O",
+      "R",
+      "A",
+      "L",
+      "O",
+      "T",
+      "A",
+      "K",
+      "U",
+      "N",
+      "E",
+      "B",
+      "E",
+      "K",
+      "G",
+      "L",
+      "A",
+      "D",
+      "E"
+    ],
+    "coordinates": {
+      "horizontal": {
+        "h1": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "h2": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "h3": [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "h4": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "h5": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "vertical": {
+        "v1": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "v2": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "v3": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ]
+        ],
+        "v4": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "v5": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      }
+    },
+    "source": {
+      "file": "mini0505.json",
+      "entry_index": 156,
+      "match_method": "exact_clue_match"
+    }
+  }
+]

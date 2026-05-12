@@ -1,0 +1,5 @@
+run,n,letter_accuracy,word_accuracy,game_accuracy
+io_gemini25flash,20,0.376,0.13,0.0
+cot_gemini25flash,20,0.398,0.145,0.0
+cot_sc_gemini25flash,20,0.332,0.13,0.0
+tot_dfs_gemini25flash,17,0.7859,0.5,0.0588

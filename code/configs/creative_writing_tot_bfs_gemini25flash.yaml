@@ -1,0 +1,17 @@
+task: creative_writing
+method: tot_bfs
+model: gemini-2.5-flash
+rpm: 1000
+temperature_generate: 1.0
+temperature_evaluate: 1.0
+n_generate: 5
+n_evaluate: 5
+breadth_limit: 1
+max_depth: 2
+max_tokens: 1536
+max_tokens_evaluate: 512
+dataset_path: ../data/creative_writing/creative_writing_prompts.json
+n_problems: 25
+problem_offset: 0
+cache_dir: ../results/cache
+output_dir: ../results/creative_writing/tot_bfs_gemini25flash

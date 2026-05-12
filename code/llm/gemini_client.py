@@ -36,7 +36,7 @@ class GeminiClient(LLMClient):
                 return cached
 
         results = [self._one_call(prompt, temperature, max_tokens) for _ in range(n)]
-        self.call_count += 1
+        self.call_count += n
 
         if self.cache is not None:
             self.cache.set(self.model, prompt, n, temperature, max_tokens, results)
